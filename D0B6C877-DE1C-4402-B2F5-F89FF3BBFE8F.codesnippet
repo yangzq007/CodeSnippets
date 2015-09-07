@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yCellFromNib</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>+ (&lt;#UITableViewCell#&gt; *)cellFromNib
+{
+    return [[[NSBundle mainBundle] loadNibNamed:@"&lt;#UITableViewCell#&gt;" owner:nil options:nil] firstObject];
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D0B6C877-DE1C-4402-B2F5-F89FF3BBFE8F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>带xib的cell的自定义初始化方法</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>YZQ_CellFromNib</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
