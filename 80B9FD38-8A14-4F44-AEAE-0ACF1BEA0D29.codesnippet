@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yUIButton</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIButton *&lt;#BtnName#&gt; = [[UIButton alloc] initWithFrame:&lt;#frame#&gt;];
+&lt;#BtnName#&gt;.titleLabel.font = &lt;#font#&gt;;
+[&lt;#BtnName#&gt; setTitle:&lt;#title#&gt; forState:UIControlStateNormal];
+[&lt;#BtnName#&gt; setTitle:&lt;#title#&gt; forState:UIControlStateHighlighted];
+[&lt;#BtnName#&gt; setImage:&lt;#image#&gt; forState:UIControlStateNormal];
+[&lt;#BtnName#&gt; setImage:&lt;#image#&gt; forState:UIControlStateHighlighted];
+[&lt;#BtnName#&gt; setTitleColor:&lt;#color#&gt; forState:UIControlStateNormal];
+[&lt;#BtnName#&gt; addTarget:&lt;#target#&gt; action:&lt;#action#&gt; forControlEvents:&lt;#event#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>80B9FD38-8A14-4F44-AEAE-0ACF1BEA0D29</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UIButton快速初始化</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>YZQ_UIButton</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
