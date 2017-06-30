@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UIButton *&lt;#BtnName#&gt; = [[UIButton alloc] initWithFrame:&lt;#frame#&gt;];
+	<string>UIButton *&lt;#BtnName#&gt; = [[UIButton alloc] initWithFrame:CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;)];
 &lt;#BtnName#&gt;.titleLabel.font = &lt;#font#&gt;;
 [&lt;#BtnName#&gt; setTitle:&lt;#title#&gt; forState:UIControlStateNormal];
 [&lt;#BtnName#&gt; setTitle:&lt;#title#&gt; forState:UIControlStateHighlighted];
