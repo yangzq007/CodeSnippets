@@ -3,28 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>yCellFromNib</string>
+	<string>yUIColor</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+ (&lt;#UITableViewCell#&gt; *)cellFromNib
-{
-    return [[[NSBundle mainBundle] loadNibNamed:@"&lt;#UITableViewCell#&gt;" owner:nil options:nil] firstObject];
-}
-</string>
+	<string>UIColor(red: &lt;#T##CGFloat#&gt;/255, green: &lt;#T##CGFloat#&gt;/255, blue: &lt;#T##CGFloat#&gt;/255, alpha: &lt;#T##CGFloat#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D0B6C877-DE1C-4402-B2F5-F89FF3BBFE8F</string>
+	<string>0D5D53E8-0145-4830-9C95-7A639E257AD1</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>带xib的cell的自定义初始化方法</string>
+	<string>UIColor快速初始化</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>YZQ_CellFromNib</string>
+	<string>YZQ_UIColor_Swift</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

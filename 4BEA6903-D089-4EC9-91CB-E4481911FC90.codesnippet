@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yLazyUILabel</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>lazy var &lt;#label#&gt;: UILabel = {
+        let &lt;#label#&gt; = UILabel(frame: CGRect(x: &lt;#x#&gt;, y: &lt;#y#&gt;, width: &lt;#width#&gt;, height: &lt;#height#&gt;));
+        &lt;#label#&gt;.font = UIFont.systemFont(ofSize: &lt;#size#&gt;);
+        &lt;#label#&gt;.textAlignment = NSTextAlignment.center;
+        &lt;#label#&gt;.textColor = UIColor(red: &lt;#red#&gt;/255, green: &lt;#green#&gt;/255, blue: &lt;#blue#&gt;/255, alpha: &lt;#alpha#&gt;);
+        &lt;#label#&gt;.text = "&lt;#text#&gt;";
+        return &lt;#label#&gt;;
+    }()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>4BEA6903-D089-4EC9-91CB-E4481911FC90</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UILabel懒加载</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>YZQ_Lazy_UILabel_Swift</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

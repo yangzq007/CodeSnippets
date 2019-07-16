@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yLazyUIView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>lazy var &lt;#view#&gt;: UIView = {
+        let &lt;#view#&gt; = UIView(frame: CGRect(x: &lt;#T##CGFloat#&gt;, y: &lt;#T##CGFloat#&gt;, width: &lt;#T##CGFloat#&gt;, height: &lt;#T##CGFloat#&gt;));
+        &lt;#view#&gt;.backgroundColor = UIColor(red: &lt;#T##CGFloat#&gt;/255, green: &lt;#T##CGFloat#&gt;/255, blue: &lt;#T##CGFloat#&gt;/255, alpha: &lt;#T##CGFloat#&gt;);
+        return &lt;#view#&gt;;
+    }()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>901EACBE-6265-48BE-8A79-83AA809C51C3</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UIView的懒加载</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>YZQ_Lazy_UIView_Swift</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
