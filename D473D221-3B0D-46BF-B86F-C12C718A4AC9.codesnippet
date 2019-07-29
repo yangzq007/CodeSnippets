@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yLazyUITextField</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UITextField *)&lt;#textField#&gt;
+{
+    if (!&lt;#textField#&gt;) {
+        &lt;#textField#&gt; = [[UITextField alloc] initWithFrame:CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;)];
+        &lt;#textField#&gt;.font = [UIFont systemFontOfSize:&lt;#(CGFloat)#&gt;];
+        &lt;#textField#&gt;.textColor =  [UIColor colorWithRed:&lt;#CGFloat#&gt;/255.0f green:&lt;#CGFloat#&gt;/255.0f blue:&lt;#CGFloat#&gt;/255.0f alpha:&lt;#CGFloat#&gt;];
+        &lt;#textField#&gt;.placeholder = &lt;#placeholder#&gt;;
+    }
+    return &lt;#textField#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D473D221-3B0D-46BF-B86F-C12C718A4AC9</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UITextField懒加载</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>YZQ_Lazy_UITextField</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
