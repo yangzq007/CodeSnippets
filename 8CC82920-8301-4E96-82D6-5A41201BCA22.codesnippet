@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yLazyUITextField</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>lazy var &lt;#textField#&gt;: UITextField = {
+        let &lt;#textField#&gt; = UITextField(frame: CGRect(x: &lt;#T##CGFloat#&gt;, y: &lt;#T##CGFloat#&gt;, width: &lt;#T##CGFloat#&gt;, height: &lt;#T##CGFloat#&gt;));
+        &lt;#textField#&gt;.font = UIFont.systemFont(ofSize: &lt;#T##CGFloat#&gt;);
+        &lt;#textField#&gt;.textColor = UIColor(red: &lt;#T##CGFloat#&gt;/255, green: &lt;#T##CGFloat#&gt;/255, blue: &lt;#T##CGFloat#&gt;/255, alpha: &lt;#T##CGFloat#&gt;);
+        return &lt;#textField#&gt;
+    }()
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8CC82920-8301-4E96-82D6-5A41201BCA22</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UITextField懒加载</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>YZQ_Lazy_UITextField</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
