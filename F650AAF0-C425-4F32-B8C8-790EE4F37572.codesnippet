@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yLazyUIButton</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UIButton *)&lt;#button#&gt;
+{
+    if (!&lt;#button#&gt;) {
+        &lt;#button#&gt; = [[UIButton alloc] initWithFrame:CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;)];
+        &lt;#button#&gt;.backgroundColor =  [UIColor colorWithRed:&lt;#CGFloat#&gt;/255.0f green:&lt;#CGFloat#&gt;/255.0f blue:&lt;#CGFloat#&gt;/255.0f alpha:&lt;#CGFloat#&gt;];
+        &lt;#button#&gt;.titleLabel.font = [UIFont systemFontOfSize:&lt;#(CGFloat)#&gt;];
+        [&lt;#button#&gt; setTitleColor:&lt;#(nullable UIColor *)#&gt; forState:UIControlStateNormal];
+        [&lt;#button#&gt; setTitleColor:&lt;#(nullable UIColor *)#&gt; forState:UIControlStateHighlighted];
+        [&lt;#button#&gt; setTitle:&lt;#title#&gt; forState:UIControlStateNormal];
+        [&lt;#button#&gt; setTitle:&lt;#title#&gt; forState:UIControlStateHighlighted];
+        [&lt;#button#&gt; setImage:&lt;#image#&gt; forState:UIControlStateNormal];
+        [&lt;#button#&gt; setImage:&lt;#image#&gt; forState:UIControlStateHighlighted];
+        [&lt;#button#&gt; addTarget:&lt;#target#&gt; action:@selector(&lt;#selector#&gt;) forControlEvents:&lt;#event#&gt;];
+    }
+    return &lt;#button#&gt;;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F650AAF0-C425-4F32-B8C8-790EE4F37572</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UIButton懒加载</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>YZQ_Lazy_UIButton</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

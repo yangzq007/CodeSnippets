@@ -15,8 +15,8 @@
         &lt;#button#&gt;.titleLabel?.font = UIFont.systemFont(ofSize: &lt;#T##CGFloat#&gt;);
         &lt;#button#&gt;.setTitleColor(&lt;#T##color: UIColor?##UIColor?#&gt;, for: UIControl.State.normal);
         &lt;#button#&gt;.setTitleColor(&lt;#T##color: UIColor?##UIColor?#&gt;, for: UIControl.State.highlighted);
-        &lt;#button#&gt;.setTitle("&lt;#title#&gt;", for: UIControl.State.normal);
-        &lt;#button#&gt;.setTitle("&lt;#title#&gt;", for: UIControl.State.highlighted);
+        &lt;#button#&gt;.setTitle(&lt;#title#&gt;, for: UIControl.State.normal);
+        &lt;#button#&gt;.setTitle(&lt;#title#&gt;, for: UIControl.State.highlighted);
         &lt;#button#&gt;.setImage(&lt;#T##image: UIImage?##UIImage?#&gt;, for: UIControl.State.normal);
         &lt;#button#&gt;.setImage(&lt;#T##image: UIImage?##UIImage?#&gt;, for: UIControl.State.highlighted);
         &lt;#button#&gt;.addTarget(self, action: #selector(&lt;#selector#&gt;), for: UIControl.Event.touchUpInside);
