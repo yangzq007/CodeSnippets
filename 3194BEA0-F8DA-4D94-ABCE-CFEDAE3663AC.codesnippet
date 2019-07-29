@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yLazyUILabel</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UILabel *)&lt;#label#&gt;
+{
+    if (!&lt;#label#&gt;) {
+        &lt;#label#&gt; = [[UILabel alloc] initWithFrame:CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;)];
+        &lt;#label#&gt;.font = [UIFont systemFontOfSize:&lt;#(CGFloat)#&gt;];
+        &lt;#label#&gt;.textColor =  [UIColor colorWithRed:&lt;#CGFloat#&gt;/255.0f green:&lt;#CGFloat#&gt;/255.0f blue:&lt;#CGFloat#&gt;/255.0f alpha:&lt;#CGFloat#&gt;];
+        &lt;#label#&gt;.textAlignment = NSTextAlignmentCenter;
+        &lt;#label#&gt;.text = &lt;#text#&gt;;
+    }
+    return &lt;#label#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>3194BEA0-F8DA-4D94-ABCE-CFEDAE3663AC</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UILabel懒加载</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>YZQ_Lazy_UILabel</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

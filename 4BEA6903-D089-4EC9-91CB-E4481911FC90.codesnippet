@@ -10,13 +10,13 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>lazy var &lt;#label#&gt;: UILabel = {
-        let &lt;#label#&gt; = UILabel(frame: CGRect(x: &lt;#x#&gt;, y: &lt;#y#&gt;, width: &lt;#width#&gt;, height: &lt;#height#&gt;));
-        &lt;#label#&gt;.font = UIFont.systemFont(ofSize: &lt;#size#&gt;);
-        &lt;#label#&gt;.textAlignment = NSTextAlignment.center;
-        &lt;#label#&gt;.textColor = UIColor(red: &lt;#red#&gt;/255, green: &lt;#green#&gt;/255, blue: &lt;#blue#&gt;/255, alpha: &lt;#alpha#&gt;);
-        &lt;#label#&gt;.text = "&lt;#text#&gt;";
-        return &lt;#label#&gt;;
-    }()</string>
+    let &lt;#label#&gt; = UILabel(frame: CGRect(x: &lt;#T##CGFloat#&gt;, y: &lt;#T##CGFloat#&gt;, width: &lt;#T##CGFloat#&gt;, height: &lt;#T##CGFloat#&gt;));
+    &lt;#label#&gt;.font = UIFont.systemFont(ofSize: &lt;#size#&gt;);
+    &lt;#label#&gt;.textColor = UIColor(red: &lt;#red#&gt;/255, green: &lt;#green#&gt;/255, blue: &lt;#blue#&gt;/255, alpha: &lt;#alpha#&gt;);
+    &lt;#label#&gt;.textAlignment = NSTextAlignment.center;
+    &lt;#label#&gt;.text = "&lt;#text#&gt;";
+    return &lt;#label#&gt;;
+}()</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>4BEA6903-D089-4EC9-91CB-E4481911FC90</string>
 	<key>IDECodeSnippetLanguage</key>
