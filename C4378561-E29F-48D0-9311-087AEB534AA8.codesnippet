@@ -6,24 +6,24 @@
 	<string>yUITextField</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UITextField *&lt;#textField#&gt; = [[UITextField alloc] initWithFrame:CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;)];
-&lt;#textField#&gt;.font = [UIFont systemFontOfSize:&lt;#(CGFloat)#&gt;];
+	<string>let &lt;#textField#&gt; = UITextField(frame: CGRect(x: &lt;#T##CGFloat#&gt;, y: &lt;#T##CGFloat#&gt;, width: &lt;#T##CGFloat#&gt;, height: &lt;#T##CGFloat#&gt;));
+&lt;#textField#&gt;.font = UIFont.systemFont(ofSize: &lt;#T##CGFloat#&gt;);
 &lt;#textField#&gt;.textColor = &lt;#textColor#&gt;;
 &lt;#textField#&gt;.placeholder = &lt;#placeholder#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>72B7E984-C6D6-49E7-8C94-DB3F88490DD8</string>
+	<string>C4378561-E29F-48D0-9311-087AEB534AA8</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>UITextField快速初始化</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>YZQ_UITextField</string>
+	<string>YZQ_UITextField_Swift</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
