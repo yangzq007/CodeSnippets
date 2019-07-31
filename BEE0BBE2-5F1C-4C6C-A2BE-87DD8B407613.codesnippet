@@ -6,25 +6,25 @@
 	<string>yUILabel</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UILabel *&lt;#label#&gt; = [[UILabel alloc] initWithFrame:CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;)];
-&lt;#label#&gt;.font = [UIFont systemFontOfSize:&lt;#(CGFloat)#&gt;];
+	<string>let &lt;#label#&gt; = UILabel(frame: CGRect(x: &lt;#T##CGFloat#&gt;, y: &lt;#T##CGFloat#&gt;, width: &lt;#T##CGFloat#&gt;, height: &lt;#T##CGFloat#&gt;));
+&lt;#label#&gt;.font = UIFont.systemFont(ofSize: &lt;#size#&gt;);
 &lt;#label#&gt;.textColor = &lt;#textColor#&gt;;
-&lt;#label#&gt;.textAlignment = NSTextAlignmentCenter;
-&lt;#label#&gt;.text = &lt;#text#&gt;;</string>
+&lt;#label#&gt;.textAlignment = NSTextAlignment.center;
+&lt;#label#&gt;.text = "&lt;#text#&gt;";</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A0449364-DC9E-4CBB-B45B-8618EDB5B66E</string>
+	<string>BEE0BBE2-5F1C-4C6C-A2BE-87DD8B407613</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>UILabel快速初始化</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>YZQ_UILabel</string>
+	<string>YZQ_UILabel_Swift</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
