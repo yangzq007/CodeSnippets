@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yTableViewDataSource</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// MARK: - UITableViewDataSource
+    
+    func numberOfSections(in tableView: UITableView) -&gt; Int {
+        return &lt;#sectionNumber#&gt;;
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
+        return &lt;#rowNumber#&gt;;
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
+        let cellIdentifier:String = &lt;#cellIdentifier#&gt;;
+        var cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier);
+        if cell == nil {
+            cell = &lt;#UITableViewCell#&gt;(style: UITableViewCell.CellStyle.default, reuseIdentifier: cellIdentifier);
+        }
+        
+        cell?.textLabel?.text = &lt;#text#&gt;;
+        
+        return cell!;
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C1486AAB-4185-4DDD-8E65-27B17DC6C5D9</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UITableViewDataSource</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>YZQ_UITableViewDataSource_Swift</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

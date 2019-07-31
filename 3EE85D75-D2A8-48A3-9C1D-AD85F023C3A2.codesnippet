@@ -13,23 +13,23 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return &lt;#sectionNum#&gt;;
+    return &lt;#sectionNumber#&gt;;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return &lt;#rowNum#&gt;;
+    return &lt;#rowNumber#&gt;;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *cellIdentifier = @"&lt;#CellIdentifier#&gt;";
+    static NSString *cellIdentifier = &lt;#CellIdentifier#&gt;;
     &lt;#UITableViewCell#&gt; *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
+        cell = [[&lt;#UITableViewCell#&gt; alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
     }
     
-    cell.textLabel.text = @"&lt;#content#&gt;";
+    cell.textLabel.text = &lt;#text#&gt;;
     
     return cell;
 }</string>
@@ -38,7 +38,7 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>常用的UITableViewDataSource方法</string>
+	<string>UITableViewDataSource</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>YZQ_UITableViewDataSource</string>
 	<key>IDECodeSnippetUserSnippet</key>
