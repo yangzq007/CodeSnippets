@@ -21,7 +21,7 @@
         [&lt;#button#&gt; setTitle:&lt;#title#&gt; forState:UIControlStateHighlighted];
         [&lt;#button#&gt; setImage:&lt;#image#&gt; forState:UIControlStateNormal];
         [&lt;#button#&gt; setImage:&lt;#image#&gt; forState:UIControlStateHighlighted];
-        [&lt;#button#&gt; addTarget:&lt;#target#&gt; action:@selector(&lt;#selector#&gt;) forControlEvents:&lt;#event#&gt;];
+        [&lt;#button#&gt; addTarget:&lt;#target#&gt; action:@selector(&lt;#selector#&gt;) forControlEvents:UIControlEventTouchUpInside];
     }
     return &lt;#button#&gt;;
 }

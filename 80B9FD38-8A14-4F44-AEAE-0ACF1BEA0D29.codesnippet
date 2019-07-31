@@ -9,14 +9,16 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UIButton *&lt;#BtnName#&gt; = [[UIButton alloc] initWithFrame:CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;)];
-&lt;#BtnName#&gt;.titleLabel.font = &lt;#font#&gt;;
-[&lt;#BtnName#&gt; setTitle:&lt;#title#&gt; forState:UIControlStateNormal];
-[&lt;#BtnName#&gt; setTitle:&lt;#title#&gt; forState:UIControlStateHighlighted];
-[&lt;#BtnName#&gt; setImage:&lt;#image#&gt; forState:UIControlStateNormal];
-[&lt;#BtnName#&gt; setImage:&lt;#image#&gt; forState:UIControlStateHighlighted];
-[&lt;#BtnName#&gt; setTitleColor:&lt;#color#&gt; forState:UIControlStateNormal];
-[&lt;#BtnName#&gt; addTarget:&lt;#target#&gt; action:&lt;#action#&gt; forControlEvents:&lt;#event#&gt;];</string>
+	<string>UIButton *&lt;#button#&gt; = [[UIButton alloc] initWithFrame:CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;)];
+&lt;#button#&gt;.backgroundColor = [UIColor colorWithRed:&lt;#CGFloat#&gt;/255.0f green:&lt;#CGFloat#&gt;/255.0f blue:&lt;#CGFloat#&gt;/255.0f alpha:&lt;#CGFloat#&gt;];
+&lt;#button#&gt;.titleLabel.font = [UIFont systemFontOfSize:&lt;#(CGFloat)#&gt;];
+[&lt;#button#&gt; setTitleColor:&lt;#color#&gt; forState:UIControlStateNormal];
+[&lt;#button#&gt; setTitleColor:&lt;#color#&gt; forState:UIControlStateHighlighted];
+[&lt;#button#&gt; setTitle:&lt;#title#&gt; forState:UIControlStateNormal];
+[&lt;#button#&gt; setTitle:&lt;#title#&gt; forState:UIControlStateHighlighted];
+[&lt;#button#&gt; setImage:&lt;#image#&gt; forState:UIControlStateNormal];
+[&lt;#button#&gt; setImage:&lt;#image#&gt; forState:UIControlStateHighlighted];
+[&lt;#button#&gt; addTarget:&lt;#target#&gt; action:@selector(&lt;#selector#&gt;) forControlEvents:UIControlEventTouchUpInside];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>80B9FD38-8A14-4F44-AEAE-0ACF1BEA0D29</string>
 	<key>IDECodeSnippetLanguage</key>

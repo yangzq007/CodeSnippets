@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yUIButton</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let &lt;#button#&gt; = UIButton(frame: CGRect(x: &lt;#T##CGFloat#&gt;, y: &lt;#T##CGFloat#&gt;, width: &lt;#T##CGFloat#&gt;, height: &lt;#T##CGFloat#&gt;));
+&lt;#button#&gt;.backgroundColor = UIColor(red: &lt;#T##CGFloat#&gt;/255, green: &lt;#T##CGFloat#&gt;/255, blue: &lt;#T##CGFloat#&gt;/255, alpha: &lt;#T##CGFloat#&gt;);
+&lt;#button#&gt;.titleLabel?.font = UIFont.systemFont(ofSize: &lt;#T##CGFloat#&gt;);
+&lt;#button#&gt;.setTitleColor(&lt;#T##color: UIColor?##UIColor?#&gt;, for: UIControl.State.normal);
+&lt;#button#&gt;.setTitleColor(&lt;#T##color: UIColor?##UIColor?#&gt;, for: UIControl.State.highlighted);
+&lt;#button#&gt;.setTitle(&lt;#title#&gt;, for: UIControl.State.normal);
+&lt;#button#&gt;.setTitle(&lt;#title#&gt;, for: UIControl.State.highlighted);
+&lt;#button#&gt;.setImage(&lt;#T##image: UIImage?##UIImage?#&gt;, for: UIControl.State.normal);
+&lt;#button#&gt;.setImage(&lt;#T##image: UIImage?##UIImage?#&gt;, for: UIControl.State.highlighted);
+&lt;#button#&gt;.addTarget(self, action: #selector(&lt;#selector#&gt;), for: UIControl.Event.touchUpInside);</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>848D6F08-9E69-473C-96F3-FC1D75BC51BC</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UIButton快速初始化</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>YZQ_UIButton_Swift</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
