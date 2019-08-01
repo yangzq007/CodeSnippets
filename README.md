@@ -142,8 +142,6 @@ yUIColor
 
 ### 懒加载
 
-frame类型和约束类型
-
 yLazyUIButton
 
 	Swift
@@ -384,3 +382,5 @@ UITableViewDelegate
 代码段生效范围检查
 
 UIColor代码段替换
+
+frame类型和约束类型区分
