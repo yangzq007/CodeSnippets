@@ -34,21 +34,26 @@
     return &lt;#footerView#&gt;;
 }
 
+- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    &lt;#code#&gt;
+}
+
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    &lt;#content#&gt;
+    &lt;#code#&gt;
 }
 
 - (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    &lt;#content#&gt;
+    &lt;#code#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>1F9426B1-55D3-43A0-A3C4-C59EC336E16B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>常用的UITableViewDelegate方法</string>
+	<string>UITableViewDelegate</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>YZQ_UITableViewDelegate</string>
 	<key>IDECodeSnippetUserSnippet</key>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yTableViewDelegate</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// MARK: - UITableViewDelegate
+
+func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -&gt; CGFloat {
+    return &lt;#rowHeight#&gt;;
+}
+
+func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -&gt; CGFloat {
+    return &lt;#headerHeight#&gt;;
+}
+
+func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -&gt; CGFloat {
+    return &lt;#footerHeight#&gt;;
+}
+
+func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -&gt; UIView? {
+    return &lt;#headerView#&gt;;
+}
+
+func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -&gt; UIView? {
+    return &lt;#footerView#&gt;;
+}
+
+func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+    &lt;#code#&gt;
+}
+
+func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    &lt;#code#&gt;
+}
+
+func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+    &lt;#code#&gt;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B38C320B-EBFB-4511-A5D5-981BC9C0A542</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UITableViewDelegate</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>YZQ_UITableViewDelegate_Swift</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
