@@ -15,10 +15,12 @@
 {
     return &lt;#rowHeight#&gt;;
 }
+
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
     return &lt;#headerHeight#&gt;;
 }
+
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
 {
     return &lt;#footerHeight#&gt;;
