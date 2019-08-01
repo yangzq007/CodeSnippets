@@ -9,22 +9,20 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+ (&lt;#UITableViewCell#&gt; *)cellFromNib
-{
-    return [[[NSBundle mainBundle] loadNibNamed:@"&lt;#UITableViewCell#&gt;" owner:nil options:nil] firstObject];
-}
-</string>
+	<string>class func cellFromNib() -&gt; &lt;#UITableViewCell#&gt; {
+    return Bundle.main.loadNibNamed("&lt;#UITableViewCell#&gt;", owner: self, options: nil)?.first as! &lt;#UITableViewCell#&gt;;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D0B6C877-DE1C-4402-B2F5-F89FF3BBFE8F</string>
+	<string>A65104E5-73ED-4B90-B146-47DDB2E16826</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>用xib初始化cell</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>YZQ_CellFromNib</string>
+	<string>YZQ_CellFromNib_Swift</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
