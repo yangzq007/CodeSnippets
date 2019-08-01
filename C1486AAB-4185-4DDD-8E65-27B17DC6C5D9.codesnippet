@@ -37,7 +37,7 @@ func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt
 	<key>IDECodeSnippetSummary</key>
 	<string>UITableViewDataSource</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>YZQ_UITableViewDataSource_Swift</string>
+	<string>YCode_UITableViewDataSource_Swift</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

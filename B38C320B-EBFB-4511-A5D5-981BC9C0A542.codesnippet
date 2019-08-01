@@ -49,7 +49,7 @@ func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) 
 	<key>IDECodeSnippetSummary</key>
 	<string>UITableViewDelegate</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>YZQ_UITableViewDelegate_Swift</string>
+	<string>YCode_UITableViewDelegate_Swift</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
