@@ -40,12 +40,12 @@ Xcode代码段
 yFixMe : FIXME
 
 	Generic
-	// FIXME: yzq <#FIXME#>
+	// FIXME: YCode <#FIXME#>
 
 yToDo : TODO
 
 	Generic
-	// TODO: yzq <#TODO#>
+	// TODO: YCode <#TODO#>
 
 ### 分段
 
