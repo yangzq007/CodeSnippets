@@ -10,9 +10,19 @@ Xcode代码段
 
 ### 使用
 
+使用[YCode](https://github.com/yangzq007/YCode)工具快速安装，可自定义参数
+
+	//如果出现了cmdand cmdand cmdand cmdand cmdand cmdand dquote> 输出，将多条命令拆分执行即可
+	git clone https://github.com/yangzq007/YCode.git && cd YCode && npm install && npm install -g && cd .. && rm -rf YCode && echo "success"
+	
+	ycode init
+
+直接使用我的分支（注意：FIXME和TODO当中的userTag是yzq，建议修改）
+
 	cd ~/Library/Developer/Xcode/UserData/
 	rm -rf ~/Library/Developer/Xcode/UserData/CodeSnippets
 	git clone https://github.com/yangzq007/CodeSnippets.git
+	git checkout yzq
 
 注：原有自定义代码段将被清空，如果想保留，可clone本仓库，将其中的文件放置到`~/Library/Developer/Xcode/UserData/CodeSnippets`目录下即可
 
