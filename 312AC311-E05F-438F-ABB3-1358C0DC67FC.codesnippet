@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>yToDo</string>
+	<string>$$key$$ToDo</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// TODO: YCode &lt;#TODO#&gt;</string>
+	<string>// TODO: $$userTag$$ &lt;#TODO#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>312AC311-E05F-438F-ABB3-1358C0DC67FC</string>
 	<key>IDECodeSnippetLanguage</key>
