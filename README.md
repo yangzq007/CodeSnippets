@@ -16,13 +16,13 @@ Xcode代码段
 	git clone https://github.com/yangzq007/YCode.git && cd YCode && npm install && npm install -g && cd .. && rm -rf YCode && echo "success"
 	
 	ycode init
+	ycode userTag <YourUserTag>
 
-直接使用我的分支（注意：FIXME和TODO当中的userTag是yzq，建议修改）
+直接使用master分支（注意：FIXME和TODO当中的userTag是YCode，建议修改）
 
 	cd ~/Library/Developer/Xcode/UserData/
 	rm -rf ~/Library/Developer/Xcode/UserData/CodeSnippets
 	git clone https://github.com/yangzq007/CodeSnippets.git
-	cd CodeSnippets && git checkout yzq
 
 注：原有自定义代码段将被清空，如果想保留，可clone本仓库，将其中的文件放置到`~/Library/Developer/Xcode/UserData/CodeSnippets`目录下即可
 
