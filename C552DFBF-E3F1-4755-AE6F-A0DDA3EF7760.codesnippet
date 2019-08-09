@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yLazyUITableView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>lazy var &lt;#tableView#&gt;: UITableView = {
+        let &lt;#tableView#&gt; = UITableView(frame: CGRect(x: &lt;#T##CGFloat#&gt;, y: &lt;#T##CGFloat#&gt;, width: &lt;#T##CGFloat#&gt;, height: &lt;#T##CGFloat#&gt;), style: UITableView.Style.plain);
+        &lt;#tableView#&gt;.backgroundColor = &lt;#backgroundColor#&gt;;
+        &lt;#tableView#&gt;.dataSource = self;
+        &lt;#tableView#&gt;.delegate = self;
+        return &lt;#tableView#&gt;;
+    }()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C552DFBF-E3F1-4755-AE6F-A0DDA3EF7760</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UITableView懒加载</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>YCode_Lazy_UITableView_Swift</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

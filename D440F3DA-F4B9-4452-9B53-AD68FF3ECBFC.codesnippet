@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yUITableView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let &lt;#tableView#&gt; = UITableView(frame: CGRect(x: &lt;#T##CGFloat#&gt;, y: &lt;#T##CGFloat#&gt;, width: &lt;#T##CGFloat#&gt;, height: &lt;#T##CGFloat#&gt;), style: UITableView.Style.plain);
+&lt;#tableView#&gt;.backgroundColor = &lt;#backgroundColor#&gt;;
+&lt;#tableView#&gt;.dataSource = self;
+&lt;#tableView#&gt;.delegate = self;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D440F3DA-F4B9-4452-9B53-AD68FF3ECBFC</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UITableView快速初始化</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>YCode_UITableView_Swift</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
