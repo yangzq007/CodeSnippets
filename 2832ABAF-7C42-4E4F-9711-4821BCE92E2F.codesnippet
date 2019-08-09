@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yLazyUITextView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>lazy var &lt;#textView#&gt;: UITextView = {
+        let &lt;#textView#&gt; = UITextView(frame: CGRect(x: &lt;#T##CGFloat#&gt;, y: &lt;#T##CGFloat#&gt;, width: &lt;#T##CGFloat#&gt;, height: &lt;#T##CGFloat#&gt;));
+        &lt;#textView#&gt;.font = UIFont.systemFont(ofSize: &lt;#T##CGFloat#&gt;);
+        &lt;#textView#&gt;.textColor = &lt;#textColor#&gt;;
+        &lt;#textView#&gt;.text = &lt;#text#&gt;;
+        return &lt;#textView#&gt;;
+    }()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2832ABAF-7C42-4E4F-9711-4821BCE92E2F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UITextView懒加载</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>YCode_Lazy_UITextView_Swift</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
