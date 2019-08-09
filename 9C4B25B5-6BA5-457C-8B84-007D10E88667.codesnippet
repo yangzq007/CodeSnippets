@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yLazyUIImageView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UIImageView *)&lt;#imageView#&gt;
+{
+    if (!&lt;#imageView#&gt;) {
+        &lt;#imageView#&gt; = [[UIImageView alloc] initWithFrame:CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;)];
+        &lt;#imageView#&gt; = [UIImage imageNamed:&lt;#(nonnull NSString *)#&gt;];
+    }
+    return &lt;#imageView#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>9C4B25B5-6BA5-457C-8B84-007D10E88667</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UIImageView懒加载</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>YCode_Lazy_UIImageView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
