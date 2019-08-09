@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yUIScrollView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let &lt;#scrollView#&gt; = UIScrollView(frame: CGRect(x: &lt;#T##CGFloat#&gt;, y: &lt;#T##CGFloat#&gt;, width: &lt;#T##CGFloat#&gt;, height: &lt;#T##CGFloat#&gt;));
+&lt;#scrollView#&gt;.backgroundColor = &lt;#backgroundColor#&gt;;
+&lt;#scrollView#&gt;.contentSize = CGSize(width: &lt;#T##CGFloat#&gt;, height: &lt;#T##CGFloat#&gt;);
+&lt;#scrollView#&gt;.showsHorizontalScrollIndicator = &lt;#Bool#&gt;;
+&lt;#scrollView#&gt;.showsVerticalScrollIndicator = &lt;#Bool#&gt;;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>629A53A8-ADF8-4A08-81CF-59CB014EAC47</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UIScrollView快速初始化</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>YCode_UIScrollView_Swift</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

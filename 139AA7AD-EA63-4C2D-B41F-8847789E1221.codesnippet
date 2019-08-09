@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yLazyUIScrollView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>lazy var &lt;#scrollView#&gt;: UIScrollView = {
+        let &lt;#scrollView#&gt; = UIScrollView(frame: CGRect(x: &lt;#T##CGFloat#&gt;, y: &lt;#T##CGFloat#&gt;, width: &lt;#T##CGFloat#&gt;, height: &lt;#T##CGFloat#&gt;));
+        &lt;#scrollView#&gt;.backgroundColor = &lt;#backgroundColor#&gt;;
+        &lt;#scrollView#&gt;.contentSize = CGSize(width: &lt;#T##CGFloat#&gt;, height: &lt;#T##CGFloat#&gt;);
+        &lt;#scrollView#&gt;.showsHorizontalScrollIndicator = &lt;#Bool#&gt;;
+        &lt;#scrollView#&gt;.showsVerticalScrollIndicator = &lt;#Bool#&gt;;
+        return &lt;#scrollView#&gt;;
+    }()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>139AA7AD-EA63-4C2D-B41F-8847789E1221</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UIScrollView懒加载</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>YCode_Lazy_UIScrollView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
