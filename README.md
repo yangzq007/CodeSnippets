@@ -35,13 +35,25 @@ Xcode代码段
 | yMark | Mark | 分段 | 完成 |
 | yCellFromNib | 用Xib初始化Cell | 初始化方法 | 完成 |
 | yUIButton | UIButton初始化 | 初始化 | 完成 |
+| yUIImageView | UIImageView初始化 | 快速初始化 | 完成 |
 | yUILabel | UILabel初始化 | 初始化 | 完成 |
 | yUITextField | UITextField初始化 | 初始化 | 完成 |
+| yUITextView | UITextView初始化 | 初始化 | 完成 |
+| yUIScrollView | UIScrollView初始化 | 初始化 | 完成 |
+| yUITableView | UITableView初始化 | 初始化 | 完成 |
+| yUICollectionView | UICollectionView初始化 | 初始化 | 完成 |
+| yUIWebView | UIWebView初始化 | 初始化 | 完成 |
 | yUIColor | UIColor快速初始化 | 快速初始化 | 完成 |
 | yLazyUIButton | UIButton懒加载| 懒加载 | 完成 |
+| yLazyUIImageView | UIImageView懒加载| 懒加载 | 完成 |
 | yLazyUILabel | UILabel懒加载| 懒加载 | 完成 |
 | yLazyUITextField | UITextField懒加载| 懒加载 | 完成 |
+| yLazyUITextView | UITextView懒加载| 懒加载 | 完成 |
 | yLazyUIView | UIView懒加载| 懒加载 | 完成 |
+| yLazyUIScrollView | UIScrollView懒加载| 懒加载 | 完成 |
+| yLazyUITableView | UITableView懒加载| 懒加载 | 完成 |
+| yLazyUICollectionView | UICollectionView懒加载| 懒加载 | 完成 |
+| yLazyUIWebView | UIWebView懒加载| 懒加载 | 完成 |
 | yTableViewDataSource | UITableViewDataSource | 代码段 | 完成 |
 | yTableViewDelegate | UITableViewDelegate | 代码段 | 完成 |
 
@@ -110,6 +122,16 @@ yUIButton
 	[<#button#> setImage:<#image#> forState:UIControlStateHighlighted];
 	[<#button#> addTarget:<#target#> action:@selector(<#selector#>) forControlEvents:UIControlEventTouchUpInside];
 
+yUIImageView
+
+	Swift
+	let <#imageView#> = UIImageView(frame: CGRect(x: <#T##CGFloat#>, y: <#T##CGFloat#>, width: <#T##CGFloat#>, height: <#T##CGFloat#>));
+	<#imageView#>.image = UIImage(named: <#T##String#>);
+	
+	Objective-C
+	UIImageView *<#imageView#> = [[UIImageView alloc] initWithFrame:CGRectMake(<#CGFloat x#>, <#CGFloat y#>, <#CGFloat width#>, <#CGFloat height#>)];
+	<#imageView#> = [UIImage imageNamed:<#(nonnull NSString *)#>];
+
 yUILabel
 
 	Swift
@@ -139,6 +161,80 @@ yUITextField
 	<#textField#>.font = [UIFont systemFontOfSize:<#(CGFloat)#>];
 	<#textField#>.textColor = <#textColor#>;
 	<#textField#>.placeholder = <#placeholder#>;
+
+yUITextView
+
+	Swift
+	let <#textView#> = UITextView(frame: CGRect(x: <#T##CGFloat#>, y: <#T##CGFloat#>, width: <#T##CGFloat#>, height: <#T##CGFloat#>));
+	<#textView#>.font = UIFont.systemFont(ofSize: <#T##CGFloat#>);
+	<#textView#>.textColor = <#textColor#>;
+	<#textView#>.text = <#text#>;
+	
+	Objective-C
+	UITextView *<#textView#> = [[UITextView alloc] initWithFrame:CGRectMake(<#CGFloat x#>, <#CGFloat y#>, <#CGFloat width#>, <#CGFloat height#>)];
+	<#textView#>.font = [UIFont systemFontOfSize:<#(CGFloat)#>];
+	<#textView#>.textColor = <#textColor#>;
+	<#textView#>.text = <#text#>;
+
+yUIScrollView
+
+	Swift
+	let <#scrollView#> = UIScrollView(frame: CGRect(x: <#T##CGFloat#>, y: <#T##CGFloat#>, width: <#T##CGFloat#>, height: <#T##CGFloat#>));
+	<#scrollView#>.backgroundColor = <#backgroundColor#>;
+	<#scrollView#>.contentSize = CGSize(width: <#T##CGFloat#>, height: <#T##CGFloat#>);
+	<#scrollView#>.showsHorizontalScrollIndicator = <#Bool#>;
+	<#scrollView#>.showsVerticalScrollIndicator = <#Bool#>;
+
+	Objective-C
+	UIScrollView *<#scrollView#> = [[UIScrollView alloc] initWithFrame:CGRectMake(<#CGFloat x#>, <#CGFloat y#>, <#CGFloat width#>, <#CGFloat height#>)];
+	<#scrollView#>.backgroundColor = <#backgroundColor#>;
+	<#scrollView#>.contentSize = CGSizeMake(<#CGFloat width#>, <#CGFloat height#>);
+	<#scrollView#>.showsHorizontalScrollIndicator = <#(BOOL)#>;
+	<#scrollView#>.showsVerticalScrollIndicator = <#(BOOL)#>;
+
+yUITableView
+
+	Swift
+	let <#tableView#> = UITableView(frame: CGRect(x: <#T##CGFloat#>, y: <#T##CGFloat#>, width: <#T##CGFloat#>, height: <#T##CGFloat#>), style: UITableView.Style.plain);
+	<#tableView#>.backgroundColor = <#backgroundColor#>;
+	<#tableView#>.dataSource = self;
+	<#tableView#>.delegate = self;
+
+	Objective-C
+	UITableView *<#tableView#> = [[UITableView alloc] initWithFrame:CGRectMake(<#CGFloat x#>, <#CGFloat y#>, <#CGFloat width#>, <#CGFloat height#>) style:UITableViewStylePlain];
+	<#tableView#>.backgroundColor = <#backgroundColor#>;
+	<#tableView#>.dataSource = self;
+	<#tableView#>.delegate = self;
+
+yUICollectionView
+
+	Swift
+	let layout = UICollectionViewFlowLayout();
+	let <#collectionView#> = UICollectionView(frame: CGRect(x: <#T##CGFloat#>, y: <#T##CGFloat#>, width: <#T##CGFloat#>, height: <#T##CGFloat#>), collectionViewLayout: layout);
+	<#collectionView#>.backgroundColor = <#backgroundColor#>;
+	<#collectionView#>.register(<#T##cellClass: AnyClass?##AnyClass?#>, forCellWithReuseIdentifier: <#T##String#>);
+	<#collectionView#>.dataSource = self;
+	<#collectionView#>.delegate = self;
+	
+	Objective-C
+	UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
+	UICollectionView *<#collectionView#> = [[UICollectionView alloc] initWithFrame:CGRectMake(<#CGFloat x#>, <#CGFloat y#>, <#CGFloat width#>, <#CGFloat height#>) collectionViewLayout:layout];
+	<#collectionView#>.backgroundColor = <#backgroundColor#>;
+	[<#collectionView#> registerClass:<#(nullable Class)#> forCellWithReuseIdentifier:<#(nonnull NSString *)#>];
+	<#collectionView#>.dataSource = self;
+	<#collectionView#>.delegate = self;
+
+yUIWebView
+
+	Swift
+	let <#webView#> = UIWebView(frame: CGRect(x: <#T##CGFloat#>, y: <#T##CGFloat#>, width: <#T##CGFloat#>, height: <#T##CGFloat#>));
+	<#webView#>.loadRequest(URLRequest(url: URL(string: <#T##String#>)));
+	<#webView#>.delegate = self;
+	
+	Objective-C
+	UIWebView *<#webView#> = [[UIWebView alloc] initWithFrame:CGRectMake(<#CGFloat x#>, <#CGFloat y#>, <#CGFloat width#>, <#CGFloat height#>)];
+	[<#webView#> loadRequest:[[NSURLRequest requestWithURL:[NSURL URLWithString:<#(nonnull NSString *)#>]]]];
+	<#webView#>.delegate = self;
 
 ### 快速初始化
 
@@ -185,6 +281,25 @@ yLazyUIButton
         	[<#button#> addTarget:<#target#> action:@selector(<#selector#>) forControlEvents:<#event#>];
     	}
     	return <#button#>;
+	}
+
+yLazyUIImageView
+
+	Swift
+	lazy var <#imageView#>: UIImageView = {
+        let <#imageView#> = UIImageView(frame: CGRect(x: <#T##CGFloat#>, y: <#T##CGFloat#>, width: <#T##CGFloat#>, height: <#T##CGFloat#>));
+        <#imageView#>.image = UIImage(named: <#T##String#>);
+        return <#imageView#>;
+    }()
+	
+	Objective-C
+	- (UIImageView *)<#imageView#>
+	{
+	    if (!<#imageView#>) {
+	        <#imageView#> = [[UIImageView alloc] initWithFrame:CGRectMake(<#CGFloat x#>, <#CGFloat y#>, <#CGFloat width#>, <#CGFloat height#>)];
+	        <#imageView#> = [UIImage imageNamed:<#(nonnull NSString *)#>];
+	    }
+	    return <#imageView#>;
 	}
 	
 yLazyUILabel
@@ -234,6 +349,28 @@ yLazyUITextField
 	    }
 	    return <#textField#>;
 	}
+yLazyUITextView
+
+	Swift
+	lazy var <#textView#>: UITextView = {
+        let <#textView#> = UITextView(frame: CGRect(x: <#T##CGFloat#>, y: <#T##CGFloat#>, width: <#T##CGFloat#>, height: <#T##CGFloat#>));
+        <#textView#>.font = UIFont.systemFont(ofSize: <#T##CGFloat#>);
+        <#textView#>.textColor = <#textColor#>;
+        <#textView#>.text = <#text#>;
+        return <#textView#>;
+    }()
+    
+	Objective-C
+	- (UITextView *)<#textView#>
+	{
+	    if (!<#textView#>) {
+	        <#textView#> = [[UITextView alloc] initWithFrame:CGRectMake(<#CGFloat x#>, <#CGFloat y#>, <#CGFloat width#>, <#CGFloat height#>)];
+	        <#textView#>.font = [UIFont systemFontOfSize:<#(CGFloat)#>];
+	        <#textView#>.textColor = <#textColor#>;
+	        <#textView#>.text = <#text#>;
+	    }
+	    return <#textView#>;
+	}
 
 yLazyUIView
 
@@ -252,6 +389,101 @@ yLazyUIView
 	        <#view#>.backgroundColor =  [UIColor colorWithRed:<#CGFloat#>/255.0f green:<#CGFloat#>/255.0f blue:<#CGFloat#>/255.0f alpha:<#CGFloat#>];
 	    }
 	    return <#view#>;
+	}
+yLazyUIScrollView
+
+	Swift
+	lazy var <#scrollView#>: UIScrollView = {
+        let <#scrollView#> = UIScrollView(frame: CGRect(x: <#T##CGFloat#>, y: <#T##CGFloat#>, width: <#T##CGFloat#>, height: <#T##CGFloat#>));
+        <#scrollView#>.backgroundColor = <#backgroundColor#>;
+        <#scrollView#>.contentSize = CGSize(width: <#T##CGFloat#>, height: <#T##CGFloat#>);
+        <#scrollView#>.showsHorizontalScrollIndicator = <#Bool#>;
+        <#scrollView#>.showsVerticalScrollIndicator = <#Bool#>;
+        return <#scrollView#>;
+    }()
+    
+	Objective-C
+	- (UIScrollView *)<#scrollView#>
+	{
+	    if (!<#scrollView#>) {
+	        <#scrollView#> = [[UIScrollView alloc] initWithFrame:CGRectMake(<#CGFloat x#>, <#CGFloat y#>, <#CGFloat width#>, <#CGFloat height#>)];
+	        <#scrollView#>.backgroundColor = <#backgroundColor#>;
+	        <#scrollView#>.contentSize = CGSizeMake(<#CGFloat width#>, <#CGFloat height#>);
+	        <#scrollView#>.showsHorizontalScrollIndicator = <#(BOOL)#>;
+	        <#scrollView#>.showsVerticalScrollIndicator = <#(BOOL)#>;
+	    }
+	    return <#scrollView#>;
+	}
+
+yLazyUITableView
+
+	Swift
+	lazy var <#tableView#>: UITableView = {
+        let <#tableView#> = UITableView(frame: CGRect(x: <#T##CGFloat#>, y: <#T##CGFloat#>, width: <#T##CGFloat#>, height: <#T##CGFloat#>), style: UITableView.Style.plain);
+        <#tableView#>.backgroundColor = <#backgroundColor#>;
+        <#tableView#>.dataSource = self;
+        <#tableView#>.delegate = self;
+        return <#tableView#>;
+    }()
+    
+	Objective-C
+	- (UITableView *)<#tableView#>
+	{
+	    if (!<#tableView#>) {
+	        <#tableView#> = [[UITableView alloc] initWithFrame:CGRectMake(<#CGFloat x#>, <#CGFloat y#>, <#CGFloat width#>, <#CGFloat height#>) style:UITableViewStylePlain];
+	        <#tableView#>.backgroundColor = <#backgroundColor#>;
+	        <#tableView#>.dataSource = self;
+	        <#tableView#>.delegate = self;
+	    }
+	    return <#tableView#>;
+	}
+
+yLazyUICollectionView
+
+	Swift
+	lazy var <#collectionView#>: UICollectionView = {
+        let layout = UICollectionViewFlowLayout();
+        let <#collectionView#> = UICollectionView(frame: CGRect(x: <#T##CGFloat#>, y: <#T##CGFloat#>, width: <#T##CGFloat#>, height: <#T##CGFloat#>), collectionViewLayout: layout);
+        <#collectionView#>.backgroundColor = <#backgroundColor#>;
+        <#collectionView#>.register(<#T##cellClass: AnyClass?##AnyClass?#>, forCellWithReuseIdentifier: <#T##String#>);
+        <#collectionView#>.dataSource = self;
+        <#collectionView#>.delegate = self;
+        return <#collectionView#>;
+    }()
+	
+	Objective-C
+	- (UICollectionView *)<#collectionView#>
+	{
+	    if (!<#collectionView#>) {
+	        UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
+	        <#collectionView#> = [[UICollectionView alloc] initWithFrame:CGRectMake(<#CGFloat x#>, <#CGFloat y#>, <#CGFloat width#>, <#CGFloat height#>) collectionViewLayout:layout];
+	        <#collectionView#>.backgroundColor = <#backgroundColor#>;
+	        [<#collectionView#> registerClass:<#(nullable Class)#> forCellWithReuseIdentifier:<#(nonnull NSString *)#>];
+	        <#collectionView#>.dataSource = self;
+	        <#collectionView#>.delegate = self;
+	    }
+	    return <#collectionView#>;
+	}
+
+yLazyUIWebView
+
+	Swift
+	lazy var <#webView#>: UIWebView = {
+        let <#webView#> = UIWebView(frame: CGRect(x: <#T##CGFloat#>, y: <#T##CGFloat#>, width: <#T##CGFloat#>, height: <#T##CGFloat#>));
+        <#webView#>.loadRequest(URLRequest(url: URL(string: <#T##String#>)));
+        <#webView#>.delegate = self;
+        return <#webView#>;
+    }()
+    
+	Objective-C
+	- (UIWebView *)<#webView#>
+	{
+	    if (!<#webView#>) {
+	        <#webView#> = [[UIWebView alloc] initWithFrame:CGRectMake(<#CGFloat x#>, <#CGFloat y#>, <#CGFloat width#>, <#CGFloat height#>)];
+	        [<#webView#> loadRequest:[[NSURLRequest requestWithURL:[NSURL URLWithString:<#(nonnull NSString *)#>]]]];
+	        <#webView#>.delegate = self;
+	    }
+	    return <#webView#>;
 	}
 
 ### 代码块
