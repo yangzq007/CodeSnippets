@@ -56,6 +56,8 @@ Xcode代码段
 | yLazyUIWebView | UIWebView懒加载| 懒加载 | 完成 |
 | yTableViewDataSource | UITableViewDataSource | 代码段 | 完成 |
 | yTableViewDelegate | UITableViewDelegate | 代码段 | 完成 |
+| yFuncPrivate | Private方法声明 | 代码段 | 完成 |
+| yFuncPublic | Public方法声明 | 代码段 | 完成 |
 
 ### 标记
 
@@ -618,6 +620,20 @@ UITableViewDelegate
 	{
 	    <#code#>
 	}
+
+yFuncPrivate
+
+	Swift
+	private func <#name#>(<#parameters#>) -> <#return type#> {
+        <#function body#>
+    }
+
+yFuncPublic
+
+	Swift
+	public func <#name#>(<#parameters#>) -> <#return type#> {
+        <#function body#>
+    }
 
 ## 规划
 
