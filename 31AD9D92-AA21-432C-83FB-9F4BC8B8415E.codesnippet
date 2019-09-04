@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yFuncPrivate</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>private func &lt;#name#&gt;(&lt;#parameters#&gt;) -&gt; &lt;#return type#&gt; {
+        &lt;#function body#&gt;
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>31AD9D92-AA21-432C-83FB-9F4BC8B8415E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Swift私有方法</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>YCode_PrivateFunc_Swift</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
