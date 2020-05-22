@@ -14,7 +14,7 @@
     if (!&lt;#label#&gt;) {
         &lt;#label#&gt; = [[UILabel alloc] initWithFrame:CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;)];
         &lt;#label#&gt;.font = [UIFont systemFontOfSize:&lt;#(CGFloat)#&gt;];
-        &lt;#label#&gt;.textColor =  [UIColor colorWithRed:&lt;#CGFloat#&gt;/255.0f green:&lt;#CGFloat#&gt;/255.0f blue:&lt;#CGFloat#&gt;/255.0f alpha:&lt;#CGFloat#&gt;];
+        &lt;#label#&gt;.textColor = [UIColor colorWithRed:&lt;#CGFloat#&gt;/255.0f green:&lt;#CGFloat#&gt;/255.0f blue:&lt;#CGFloat#&gt;/255.0f alpha:&lt;#CGFloat#&gt;];
         &lt;#label#&gt;.textAlignment = NSTextAlignmentCenter;
         &lt;#label#&gt;.text = &lt;#text#&gt;;
     }
