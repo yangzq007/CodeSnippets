@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>UIImageView *&lt;#imageView#&gt; = [[UIImageView alloc] initWithFrame:CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;)];
-&lt;#imageView#&gt; = [UIImage imageNamed:&lt;#(nonnull NSString *)#&gt;];</string>
+&lt;#imageView#&gt;.image = [UIImage imageNamed:&lt;#(nonnull NSString *)#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>87E987FD-1ACF-4292-AF6D-1DAB58D3BC91</string>
 	<key>IDECodeSnippetLanguage</key>
