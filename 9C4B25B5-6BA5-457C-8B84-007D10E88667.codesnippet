@@ -13,7 +13,7 @@
 {
     if (!&lt;#imageView#&gt;) {
         &lt;#imageView#&gt; = [[UIImageView alloc] initWithFrame:CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;)];
-        &lt;#imageView#&gt; = [UIImage imageNamed:&lt;#(nonnull NSString *)#&gt;];
+        &lt;#imageView#&gt;.image = [UIImage imageNamed:&lt;#(nonnull NSString *)#&gt;];
     }
     return &lt;#imageView#&gt;;
 }</string>
