@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yLazyUIControl</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UIControl *)&lt;#control#&gt;
+{
+    if (!&lt;#control#&gt;) {
+        &lt;#control#&gt; = [[UIControl alloc] initWithFrame:&lt;#frame#&gt;];
+        [&lt;#control#&gt; addTarget:self action:&lt;#(nonnull SEL)#&gt; forControlEvents:UIControlEventTouchUpInside];
+    }
+    return &lt;#control#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7FC66FA5-1027-4E85-A60C-59D98B4DDA47</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UIControl懒加载</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>YCode_Lazy_UIControl</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
