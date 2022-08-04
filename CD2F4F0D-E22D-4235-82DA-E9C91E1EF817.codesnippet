@@ -13,7 +13,7 @@
 {
     if (!&lt;#view#&gt;) {
         &lt;#view#&gt; = [[UIView alloc] initWithFrame:CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;)];
-        &lt;#view#&gt;.backgroundColor =  [UIColor colorWithRed:&lt;#CGFloat#&gt;/255.0f green:&lt;#CGFloat#&gt;/255.0f blue:&lt;#CGFloat#&gt;/255.0f alpha:&lt;#CGFloat#&gt;];
+        &lt;#view#&gt;.backgroundColor = [UIColor colorWithRed:&lt;#CGFloat#&gt;/255.0f green:&lt;#CGFloat#&gt;/255.0f blue:&lt;#CGFloat#&gt;/255.0f alpha:&lt;#CGFloat#&gt;];
     }
     return &lt;#view#&gt;;
 }</string>

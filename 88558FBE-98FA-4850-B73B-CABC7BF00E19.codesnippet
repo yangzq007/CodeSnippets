@@ -3,23 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>yFuncPublic</string>
+	<string>yLazyUIControl</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>public func &lt;#name#&gt;(&lt;#parameters#&gt;) -&gt; &lt;#return type#&gt; {
-        &lt;#function body#&gt;
-    }</string>
+	<string>lazy var &lt;#control#&gt;: UIControl = {
+        let &lt;#control#&gt; = UIControl(frame: CGRect(x: &lt;#T##CGFloat#&gt;, y: &lt;#T##CGFloat#&gt;, width: &lt;#T##CGFloat#&gt;, height: &lt;#T##CGFloat#&gt;));
+        &lt;#control#&gt;.addTarget(self, action: #selector(&lt;#T##@objc method#&gt;), for: UIControl.Event.touchUpInside);
+        return &lt;#control#&gt;;
+    }()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B701C81B-BD19-4D86-94C8-E142DDF72880</string>
+	<string>88558FBE-98FA-4850-B73B-CABC7BF00E19</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Swift的Public方法</string>
+	<string>UIControl懒加载</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>YCode_PublicFunc_Swift</string>
+	<string>YCode_Lazy_UIControl_Swift</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

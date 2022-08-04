@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>yFuncPublic</string>
+	<string>yStrongUIControl</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>public func &lt;#name#&gt;(&lt;#parameters#&gt;) -&gt; &lt;#return type#&gt; {
-        &lt;#function body#&gt;
-    }</string>
+	<string>@property (strong, nonatomic) UIControl *controlTips;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B701C81B-BD19-4D86-94C8-E142DDF72880</string>
+	<string>BE90B5A4-38E6-4D64-8F8B-97622E11F0FF</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Swift的Public方法</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>YCode_PublicFunc_Swift</string>
+	<string>YCode_Property_Strong_UIControl</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

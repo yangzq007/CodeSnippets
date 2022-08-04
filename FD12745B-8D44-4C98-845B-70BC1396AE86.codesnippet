@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>yFuncPublic</string>
+	<string>yDebugCode</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>public func &lt;#name#&gt;(&lt;#parameters#&gt;) -&gt; &lt;#return type#&gt; {
-        &lt;#function body#&gt;
-    }</string>
+	<string>// FIXME: YCode Debug Code
+&lt;#Debug Code#&gt;
+// FIXME: YCode Debug Code</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B701C81B-BD19-4D86-94C8-E142DDF72880</string>
+	<string>FD12745B-8D44-4C98-845B-70BC1396AE86</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Swift的Public方法</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>YCode_PublicFunc_Swift</string>
+	<string>YCode_DebugCode</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
