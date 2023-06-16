@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>yStrongUIImageView</string>
+	<string>yStrongNSDictionary</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (strong, nonatomic) UIImageView *&lt;#imageView#&gt;;</string>
+	<string>@property (nonatomic, strong) NSDictionary *&lt;#dictionary#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3FC675D7-FD34-4872-9567-588729A478BE</string>
+	<string>5B60F141-B145-401A-AA8C-DB3899B5D761</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>YCode_Property_Strong_UIImageView</string>
+	<string>YCode_Strong_NSDictionary</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
