@@ -3,25 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>yStrongUILabel</string>
+	<string>yStrongUIButton</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassInterfaceVariables</string>
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) UILabel *&lt;#label#&gt;;</string>
+	<string>@property (nonatomic, strong) UIButton *&lt;#btn#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>18C7635E-E0D7-43F4-9952-15FDF767448E</string>
+	<string>509E8720-8428-48FC-9E3E-B86FDECCBF32</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>YCode_Strong_UILabel</string>
+	<string>YCode_Strong_UIButton</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
