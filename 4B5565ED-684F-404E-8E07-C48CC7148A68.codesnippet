@@ -6,14 +6,14 @@
 	<string>yStrongNSArray</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (strong, nonatomic) NSArray *&lt;#array#&gt;;</string>
+	<string>@property (nonatomic, strong) NSArray *&lt;#array#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>4B5565ED-684F-404E-8E07-C48CC7148A68</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>

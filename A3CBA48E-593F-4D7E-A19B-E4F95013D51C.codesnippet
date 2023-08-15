@@ -7,17 +7,18 @@
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassInterfaceMethods</string>
+		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (strong, nonatomic) UIControl *controlTips;</string>
+	<string>@property (nonatomic, strong) UIControl *&lt;#control#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>BE90B5A4-38E6-4D64-8F8B-97622E11F0FF</string>
+	<string>A3CBA48E-593F-4D7E-A19B-E4F95013D51C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>YCode_Property_Strong_UIControl</string>
+	<string>YCode_Strong_UIControl</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,22 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>yStrongUIButton</string>
+	<string>yAssignNSInteger</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
-		<string>ClassInterfaceVariables</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) UIButton *&lt;#btn#&gt;;</string>
+	<string>@property (nonatomic, assign) NSInteger &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>509E8720-8428-48FC-9E3E-B86FDECCBF32</string>
+	<string>EE1BB517-57B1-4FE2-A070-01E21AE27B37</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>YCode_Strong_UIButton</string>
+	<string>YCode_Assign_NSInteger</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
