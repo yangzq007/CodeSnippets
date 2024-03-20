@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yCAGradientLayer</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>CAGradientLayer *gl = [CAGradientLayer layer];
+gl.frame = &lt;#frame#&gt;;
+gl.startPoint = CGPointMake(0, 0);
+gl.endPoint = CGPointMake(1, 0);
+gl.colors = @[
+    (__bridge id)&lt;#UIColor#&gt;.CGColor,
+    (__bridge id)&lt;#UIColor#&gt;.CGColor,
+];
+gl.locations = @[@(0),@(1)];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F25A9188-9B48-4EC4-B156-666CBF3B8389</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>YCode_CAGradientLayer</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
