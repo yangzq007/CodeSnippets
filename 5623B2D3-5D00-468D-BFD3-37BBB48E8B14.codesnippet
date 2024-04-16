@@ -12,7 +12,8 @@
 	<string>lazy var &lt;#collectionView#&gt;: UICollectionView = {
         let layout = UICollectionViewFlowLayout();
         let &lt;#collectionView#&gt; = UICollectionView(frame: CGRect(x: &lt;#T##CGFloat#&gt;, y: &lt;#T##CGFloat#&gt;, width: &lt;#T##CGFloat#&gt;, height: &lt;#T##CGFloat#&gt;), collectionViewLayout: layout);
-        &lt;#collectionView#&gt;.backgroundColor = &lt;#backgroundColor#&gt;;
+        /// iOS 14上不设置背景色会显示黑色
+        &lt;#collectionView#&gt;.backgroundColor = UIColor.whiteColor;
         &lt;#collectionView#&gt;.register(&lt;#T##cellClass: AnyClass?##AnyClass?#&gt;, forCellWithReuseIdentifier: &lt;#T##String#&gt;);
         &lt;#collectionView#&gt;.dataSource = self;
         &lt;#collectionView#&gt;.delegate = self;
